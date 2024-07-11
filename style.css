@@ -1,0 +1,465 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#es-valentino.es-valentino {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000000;
+  background-color: #ffffff;
+}
+#es-valentino.es-valentino * {
+  box-sizing: border-box;
+}
+#es-valentino.es-valentino h2,
+#es-valentino.es-valentino h3,
+#es-valentino.es-valentino h4,
+#es-valentino.es-valentino h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+#es-valentino.es-valentino .es-title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#es-valentino.es-valentino .es-title span {
+  font-weight: 700;
+}
+#es-valentino.es-valentino .es-banner {
+  padding-bottom: 30px;
+}
+#es-valentino.es-valentino .es-banner--footer {
+  padding-bottom: 0;
+}
+#es-valentino.es-valentino .es-banner__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#es-valentino.es-valentino .es-banner__image--footer {
+  margin-bottom: 0;
+}
+#es-valentino.es-valentino .es-banner__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+#es-valentino.es-valentino .es-banner__description {
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+#es-valentino.es-valentino .es-banner__link {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 15px;
+  width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#es-valentino.es-valentino .es-category {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+#es-valentino.es-valentino .es-category__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#es-valentino.es-valentino .es-category__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 39px;
+}
+#es-valentino.es-valentino .es-category__item-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 25px;
+}
+#es-valentino.es-valentino .es-category__item-link {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 35px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#es-valentino.es-valentino .es-info {
+  margin-bottom: 64px;
+}
+#es-valentino.es-valentino .es-info__section-title {
+  margin-top: 60px;
+  margin-bottom: 80px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+#es-valentino.es-valentino .es-info__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #000;
+}
+#es-valentino.es-valentino .es-info__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0 16px;
+  font-weight: 400;
+  margin-bottom: 80px;
+  text-align: center;
+}
+#es-valentino.es-valentino .es-info__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-valentino.es-valentino .es-info__container {
+  margin-bottom: 16px;
+}
+#es-valentino.es-valentino .es-info__bg {
+  transition: transform 0.6s;
+}
+#es-valentino.es-valentino .es-info__content {
+  padding: 16px;
+  max-width: 632px;
+  margin: 0 auto;
+}
+#es-valentino.es-valentino .es-info__label {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #000000;
+  text-transform: uppercase;
+}
+#es-valentino.es-valentino .es-info__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 32px;
+  font-size: 21px;
+  font-weight: 700;
+}
+#es-valentino.es-valentino .es-info__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+#es-valentino.es-valentino .es-info__desc--under {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#es-valentino.es-valentino .es-info__text {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+#es-valentino.es-valentino .es-info__text--disc {
+  font-size: 13px;
+}
+#es-valentino.es-valentino .es-info__item {
+  margin-bottom: 5px;
+}
+#es-valentino.es-valentino .es-info__line {
+  display: none;
+}
+#es-valentino.es-valentino .es-info__disclaimer {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+#es-valentino.es-valentino .es-info__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  min-width: 195px;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: block;
+}
+#es-valentino.es-valentino .es-info__link:hover {
+  color: #000000;
+  background: #ffffff;
+}
+#es-valentino.es-valentino .slick-button-prev {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  rotate: 180deg;
+  cursor: pointer;
+}
+#es-valentino.es-valentino .slick-button-next {
+  position: absolute;
+  top: 35%;
+  right: 15px;
+  cursor: pointer;
+}
+#es-valentino.es-valentino .slick-button-2-prev {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  rotate: 180deg;
+  cursor: pointer;
+}
+#es-valentino.es-valentino .slick-button-2-next {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  cursor: pointer;
+}
+#es-valentino.es-valentino .slick-pagination-2 {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#es-valentino.es-valentino .slick-dots {
+  position: absolute;
+  display: flex;
+  gap: 0 4px;
+  padding: 0;
+  margin: 0;
+  bottom: 3%;
+  left: 45%;
+}
+#es-valentino.es-valentino .slick-dots li {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #73706f;
+  opacity: 1;
+}
+#es-valentino.es-valentino .slick-dots li:not(:last-child) {
+  margin-right: 6px;
+}
+#es-valentino.es-valentino .slick-dots li.slick-active {
+  background: #d9d9d9;
+}
+#es-valentino.es-valentino .slick-dots li button {
+  display: none;
+}
+#es-valentino.es-valentino .slick-slide {
+  opacity: 0.7;
+}
+#es-valentino.es-valentino .slick-current {
+  opacity: 1;
+}
+#es-valentino.es-valentino .slick-list {
+  overflow: visible;
+}
+#es-valentino.es-valentino .slick-arrow.slick-disabled {
+  display: none !important;
+}
+@media screen and (min-width: 600px) {
+  #es-valentino.es-valentino .es-category__items {
+    flex-direction: row;
+    gap: 10px;
+  }
+  #es-valentino.es-valentino .es-slick-carousel--mobile,
+  #es-valentino.es-valentino .slick-button-prev,
+  #es-valentino.es-valentino .slick-button-next {
+    display: none;
+  }
+  #es-valentino.es-valentino .slick-pagination-2,
+  #es-valentino.es-valentino .slick-button-2-prev,
+  #es-valentino.es-valentino .slick-button-2-next {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-valentino.es-valentino .slick-dots {
+    left: 47%;
+  }
+  #es-valentino.es-valentino .es-title {
+    margin-bottom: 60px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #es-valentino.es-valentino .es-info {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  #es-valentino.es-valentino .es-info__text {
+    max-width: 550px;
+  }
+  #es-valentino.es-valentino .es-info__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 0px;
+  }
+  #es-valentino.es-valentino .es-info__container:nth-child(odd) {
+    flex-flow: row-reverse;
+  }
+  #es-valentino.es-valentino .es-info__content {
+    padding: 28px;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  #es-valentino.es-valentino .es-info__bg {
+    flex: 1;
+  }
+  #es-valentino.es-valentino .es-info__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+  }
+  #es-valentino.es-valentino .es-info__title {
+    font-size: 30px;
+  }
+  #es-valentino.es-valentino .es-info__name {
+    margin-bottom: 20px;
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 860px) {
+  #es-valentino.es-valentino .es-title {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #es-valentino.es-valentino .es-category,
+  #es-valentino.es-valentino .es-cross {
+    margin-bottom: 70px;
+  }
+  #es-valentino.es-valentino .es-banner__link {
+    font-size: 26px;
+  }
+  #es-valentino.es-valentino .es-banner__description {
+    font-size: 19px;
+  }
+  #es-valentino.es-valentino .es-category__item-link {
+    font-size: 26px;
+  }
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=style.css.map */
